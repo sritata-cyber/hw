@@ -1,0 +1,78 @@
+HW4 tiny RNN results
+====================
+
+Run date: September 28, 2026
+Python: 3.13.12
+TensorFlow: 2.21.0
+
+Corpus length: 143
+Vocab: ['\n', ' ', '.', 'I', 'a', 'b', 'c', 'd', 'e', 'g', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'z']
+Num training samples: 103
+Final loss: 0.3817897140979767
+
+=== Temperature 0.1 ===
+                                 I like coos.
+I like tooos.
+I like toooks.
+I like tooos.
+I like puzzles.
+I like tooos.
+I like toooks.
+I like toooks.
+I like toooks.
+I like toooks.
+I like toooks.
+I like cooks.
+I like tooos
+
+=== Temperature 0.5 ===
+                                 I like oots.
+I like puzzles.
+I like tcoos.
+I like cooks.
+I like taos.
+I like books.
+I like tooing.
+I like tooding.
+I like tcoos.
+I like tooding.
+I like usic.
+I like puzsc.
+I like taic.
+I 
+
+=== Temperature 0.7 ===
+                                 I like cobts.
+I like cooks.
+I like tooks.
+I like puzales.
+I like cooing.
+I like pazci.
+I like puzzles.
+I like cooks.
+I like puzleza.
+I like puzzles.
+I like coodks.
+I like roddus.
+I like b
+
+=== Temperature 1.0 ===
+                                 I like aoc.
+I like tobots.
+I like pizzs.
+I like cooing.
+I like cooks.
+I like tobos.
+I like tosing.
+I like t lks.
+I like toics.
+I like robos.
+I like robos.
+I like coodng.
+I like ccoits.
+I 
+
+Note: TensorFlow printed non-fatal CPU hardware-detection warnings during
+training. The program completed successfully.
+
+Drafted by Codex (OpenAI), based on the direction of Xiuye Chen.
